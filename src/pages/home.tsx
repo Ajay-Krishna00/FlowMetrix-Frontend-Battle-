@@ -4,7 +4,7 @@ import { Star, Sparkles, Play } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full p-5 md:p-20 bg-gradient-to-b from-blue-600 via-blue-700 to-gray-800 relative overflow-hidden">
+    <div id="home" className="min-h-screen w-full p-5 md:p-20 bg-gradient-to-b from-blue-600 via-blue-700 to-gray-800 relative overflow-hidden">
       <Navbar />
 
       {/* Background decorative elements */}
@@ -106,11 +106,11 @@ export default function Home() {
 
         {/* Main heading */}
         <div className="text-center max-w-7xl mx-auto">
-          <h1 className="text-[50px] md:text-[80px] font-bold text-white leading-tight mb-8">
+          <h3 className="text-[40px] min-md:text-[60px] font-bold text-white leading-tight mb-8">
             Create reports, forecasts,
             <br />
             dashboards & consolidations
-          </h1>
+          </h3>
 
           {/* AI insights badge */}
           <div className="flex items-center justify-center space-x-3 mb-12 min-md:m-10">

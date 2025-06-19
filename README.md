@@ -1,16 +1,6 @@
 # FlowMetrix
 ## Project build for Frontend Battle
 
-This project is a stylish SaaS-style landing page built with **React + Vite** and **Tailwind CSS**, featuring:
-
-- ✅ Animated **loading screen**
-- ✅ Hero section with dashboard UI elements
-- ✅ Animated customer logo block
-- ✅ Gradient visuals & interactive buttons
-- ✅ Fully responsive layout
-
----
-
 ## ✨ Features
 
 ### 🎬 Animated Loading Screen
@@ -26,6 +16,37 @@ This project is a stylish SaaS-style landing page built with **React + Vite** an
 ### 👥 Customer Logo Carousel
 - Two sets of company names fade in/out every 2 seconds
 - Text-based logos with smooth transitions
+
+### ✅ Features Section
+- Highlights 6 core features with icons
+- Responsive grid layout
+- Titles + short descriptions
+- Animations on scroll
+
+### ✅ Integrations Section
+- Displays partner tool logos (e.g., Excel, Notion, SAP, QuickBooks)
+- Styled as carousel or logo cloud
+- Light or dark themed depending on mode
+
+### ✅ Use Cases Section
+- Cards or tabs showing how different roles use FlowMetrix:
+  - CFOs, financial analysts, small startups, large enterprises
+- Clear personas, benefits, and scenarios
+
+### ✅ Testimonials Section
+- Customer reviews with names, company, and ratings
+- May include avatars or company logos
+- Scroll-triggered animation
+
+---
+
+## 🌐 Technologies Used
+
+- **React** + **Vite**
+- **Tailwind CSS** (utility-first styling)
+- **Lucide React Icons**
+- **React Router** (`useLocation`, `Link`)
+- **CSS Transitions** & media queries for responsiveness
 
 ---
 

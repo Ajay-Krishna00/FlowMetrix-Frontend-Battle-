@@ -42,3 +42,22 @@
 .logo-item:hover {
   transform: scale(1.05);
 }
+@media (max-width: 1024px) {
+  .customer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .logo-item {
+    font-size: 1rem;
+  }
+}
